@@ -3,15 +3,15 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Georgia",Times New Roman,Times,serif;
-	color: #333333;
+	
 }
 
-head{
+head {
 	background-color: #333333;
-}
+}	
 
-h1{
-	color:#eee;
+h1 {
+	
 	font-size: 28px;
 	margin-left: auto;
 	margin-right: auto;	
@@ -20,10 +20,26 @@ h1{
 
 h2 {
 	font-size: 24px;
+	color: #eee;
+
 
 }
 
 .container {
 	margin: 0 auto;
 	width: 1024px;
+	height: 45px;
+	background-color: #333333;
+}
+
+li, a {
+	color: #d21034;
+}
+
+h2, ul {
+	float: right;
+}
+
+img {
+	float: left;
 }
