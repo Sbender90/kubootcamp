@@ -2,15 +2,16 @@ body {
 	background-color: #efeee7;
 	margin: 0;
 	padding: 0;
-	font-family: "Georgia",Times New Roman,Times,serif;
-	
+	font-family: "Georgia","Times New Roman","Times","serif";
+	font-size: 18px;
+	line-height: 150%;
 }
 
 head {
 	background-color: #333333;
 }	
 
-h1 {
+h2 {
 	
 	font-size: 28px;
 	margin-left: auto;
@@ -18,10 +19,13 @@ h1 {
 	margin-bottom: 20px;
 }
 
-h2 {
+h1 {
 	font-size: 24px;
 	color: #eee;
-	margin-bottom: 100px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 20px;
 
 }
 
@@ -34,7 +38,7 @@ h2 {
 
 }
 
-li, a {
+a {
 	color: #d21034;
 	margin: 0 auto;
 	padding-left: 20px;
@@ -45,12 +49,12 @@ li, a {
 
 img {
 	float: left;
-	margin-right: 40px;
+	margin-right: 20px;
 	margin-bottom: 100px;
 }
 
 p {
-	margin-right: 20px;
+	margin-right: 5px;
 
 }
 
@@ -72,4 +76,9 @@ h3 {
 	background-color: #333333;
 	width: 150px;
 	float: right;
+	margin-right: 100px;
+}
+
+#contact-info {
+	padding: right;
 }
